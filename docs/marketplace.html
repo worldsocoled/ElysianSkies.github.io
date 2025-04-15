@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Elysian Skies</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="site-title">
+                <img class="Logo" src="Elysian.png" alt="Elysian Skies Logo" /> 
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="inspiration.html">Inspiration Wall</a></li>
+                    <li><a href="marketplace.html">Marketplace</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+        <div class="social-links">
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+            <a href="https://facebook.com/" target="_blank">Facebook</a>
+            <a href="https://instagram.com/" target="_blank">Instagram</a>
+        </nav>
+        </div>
+    </header>
+
+    <main class="marketplace-page">
+        <h1>Welcome to the Elysian Skies Marketplace</h1>
+        <h2>Discover Unique Urban Art and Supplies</h2>
+        
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://cdn.pixabay.com/photo/2014/10/29/19/15/graffiti-508272_1280.jpg" alt="Vibrant Urban Mural">
+                <h3>Urban Dreamscape</h3>
+                <p>This striking mural captures the essence of city life, blending bright colors and intricate patterns. Perfect for adding a splash of creativity to your space!</p>
+                <p class="price">$59.99</p> <!-- Added price -->
+                <button class="add-to-cart" 
+                        data-product-id="1"
+                        data-product-name="Urban Dreamscape"
+                        data-product-price="59.99"  
+                        data-product-image="urban-art1.jpg">
+                        Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://grafflabstudio.com/wp-content/uploads/2024/06/graffiti-starter.png" alt="Graffiti Supplies">
+                <h3>Pro Graffiti Set</h3>
+                <p>Everything you need to unleash your creativity! This set includes high-quality spray paints, markers, and stencils designed for both beginners and pros.</p>
+                <p class="price">$129.99</p> <!-- Added price -->
+                <button class="add-to-cart" 
+                        data-product-id="2"
+                        data-product-name="Pro Graffiti Set"
+                        data-product-price="29.99"  
+                        data-product-image="urban-art2.jpg">
+                        Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="tshirt.png" alt="Elysian Skies T-Shirt">
+                <h3>Elysian Skies T-Shirt</h3>
+                <p>Show off your love for urban art with our exclusive Elysian Skies merchandise. Made from soft, eco-friendly materials, it's perfect for any art enthusiast!</p>
+                <p class="price">$19.99</p> <!-- Added price -->
+                <button class="add-to-cart" 
+                        data-product-id="3"
+                        data-product-name="Elysian Skies T-Shirt"
+                        data-product-price="19.99"  
+                        data-product-image="elysian-merch.jpg">
+                        Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1636544224259-54bcf5328f0f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGFic3RyYWN0JTIwY2l0eSUyMGNhbnZhc3xlbnwwfHwwfHx8MA%3D%3D" alt="City Canvas">
+                <h3>Abstract City Canvas</h3>
+                <p>This beautiful canvas artwork is perfect for any urban art lover. Each piece is unique and reflects the vibrant energy of the city.</p>
+                <p class="price">$49.99</p> <!-- Added price -->
+                <button class="add-to-cart" 
+                        data-product-id="4"
+                        data-product-name="Abstract City Canvas"
+                        data-product-price="49.99"  
+                        data-product-image="urban-art3.jpg">    
+                        Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="checkout-section">
+            <h2>Your Cart</h2>
+            <div class="cart-item-list">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+        </div>
+    </main>
+
+
+    <div class="pre-footer">
+        <div class="columns">
+            <div class="column">
+                <div class="site-info">
+                    <h1 class="site-title">Elysian Skies</h1>
+                    <p class="site-tagline">Embrace Creativity, Discover Nature.</p>
+                    <ul class="social-links">
+                        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                        <li><a href="https://facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://instagram.com/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column">
+                <h3 class="info-heading">More info</h3>
+                <nav class="footer-navigation">
+                    <ul>
+                        <li><a href="#">Event Schedule</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Donations</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="column">
+                <h3 class="search-heading">Search</h3>
+                <form class="search-form" action="#" method="get">
+                    <input type="text" name="search" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
